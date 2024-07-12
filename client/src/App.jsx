@@ -4,7 +4,7 @@ import { io } from "socket.io-client";
 
 const App = () => {
   const socket = useMemo(
-    () => io("http://localhost:8000", { withCredentials: true }),
+    () => io("https://basic-socket-1.onrender.com", { withCredentials: true }),
     []
   );
 
